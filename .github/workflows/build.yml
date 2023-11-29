@@ -1,0 +1,5 @@
+name: perl
+on: push
+jobs:
+  build_pkg:
+    uses: gardenlinux/package-build/.github/workflows/build_pkg.yml@main
